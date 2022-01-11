@@ -3,7 +3,8 @@
 \docType{import}
 \name{reexports}
 \alias{reexports}
-\alias{foo}
+\alias{foo1}
+\alias{foo3}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -11,6 +12,6 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{generictest}{\code{\link[generictest]{foo}}}
+  \item{generictest}{\code{\link[generictest]{foo1}}, \code{\link[generictest]{foo3}}}
 }}
 
