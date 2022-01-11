@@ -50,3 +50,18 @@ foo3.character <- function(x, old = NULL, ...) {
 foo4.character <- function(x, old = NULL, ...) {
   # we dont have the `new` argument, which came AFTER `old`
 }
+
+
+# import and reexport `foo5()`
+
+#' @importFrom generictest foo5
+#' @export
+generictest::foo5
+
+# foo5 signature
+# foo5 <- function(x, ..., new = NULL, old = NULL) {
+
+#' @export
+foo5.character <- function(x, ..., old = NULL) {
+  # we dont have the `new` argument, which came BEFORE `old`
+}

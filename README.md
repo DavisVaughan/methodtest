@@ -24,3 +24,7 @@ Apparently if:
       Extensions’ manual.
 
 Here are the generics <https://github.com/DavisVaughan/generictest>
+
+It is worth noting that if the `...` came earlier in the signature, like
+before the `new` and `old` arguments, then this would not have been an
+issue. See `foo5()`.
