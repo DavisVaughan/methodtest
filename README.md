@@ -22,3 +22,5 @@ Apparently if:
       
       See section ‘Generic functions and methods’ in the ‘Writing R
       Extensions’ manual.
+
+Here are the generics <https://github.com/DavisVaughan/generictest>
